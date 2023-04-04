@@ -1,5 +1,5 @@
 echo "----- ----- ----- -----"
-echo "Memory:"
+echo "Memory free:"
 free -h
 echo "----- ----- ----- -----"
 
@@ -14,13 +14,22 @@ ipconfig
 echo "----- ----- ----- -----"
 
 echo "----- ----- ----- -----"
+echo "Network ip a:"
+ip a
+echo "----- ----- ----- -----"
+
+echo "----- ----- ----- -----"
 echo "Network iwconfig:"
 iwconfig
 echo "----- ----- ----- -----"
 
 echo "----- ----- ----- -----"
-echo "Disk: "
+echo "Disk df: "
 df -h
+echo "----- ----- ----- -----"
+
+echo "----- ----- ----- -----"
+echo "Disk fdisk: "
 sudo fdisk -l
 echo "----- ----- ----- -----"
 
